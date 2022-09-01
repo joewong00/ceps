@@ -1,9 +1,8 @@
 ---
 title: "About"
 date: 2022-08-26T01:07:42+08:00
-draft: true
+draft: false
 ---
-
 # Company Profile
 
 ## About Us
@@ -15,6 +14,7 @@ Our oven is available in various sizes to cater to your need with internal diame
 CEPS's Forte in carving a niche in the food service industry is largely a result of its persistent effort to perform better than its competitors.
 
 ## Other Products and Services That We Provide Are
+
 - Stainless Steel Electric Satay Ota-Ota Grill
 - Refrigeration Showcase
 - Warmer Showcase
@@ -31,7 +31,6 @@ CEPS's Forte in carving a niche in the food service industry is largely a result
 - Thermostat And Heating Elements
 - Replacement Parts & Maintenance Service
 - Exhaust System And Gas Reticulation System
-
 
 # Our Vision
 

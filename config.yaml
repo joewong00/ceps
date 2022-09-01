@@ -1,0 +1,9 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: CE Products Synergy Sdn Bhd
+
+# Enable html in markdown
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
