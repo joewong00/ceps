@@ -1,0 +1,67 @@
+@use 'custom' as *;
+
+.menu {
+    background-color: darkgray;
+    padding: 1.3em 0.5em;
+    
+    li {
+        padding: 0 0.5rem;
+
+        a {
+            color: white !important;
+            text-transform: uppercase;
+            font-weight: 600;
+
+            &:hover {
+                color: #eb9d14;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.btn-rounded {
+    @include media-breakpoint-up($on-palm) {
+        display: none;
+    }
+
+    position: relative;
+    padding: 1rem 4.125rem 1rem 1.25rem;
+    font-weight: 500;
+    margin: 0;
+    border: 0 ;
+    background-color: white;
+
+    span {
+        position: absolute;
+        background-color: black;
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+
+        i {
+            color: white;
+            line-height: 2.5rem;
+        }
+    }
+
+    &:hover{
+        background-color: grey;
+        color: white;
+    }
+}
+
+// .banner-agileinfo {
+//     position: absolute;
+//     top: 0;
+//     width: 100%;
+//     margin: 0 auto;
+// }
+
+.w3header  {
+    width: 100%;
+    padding: 2em 0;
+}
