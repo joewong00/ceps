@@ -46,4 +46,36 @@ draft: false
 </div>
 
 
-# Welcome to CE Products
+<!-- Welcome -->
+<div class="welcome">
+  <div class="container-xxl">
+    <h1 class="text-center mb-4">Welcome to CE Products</h1>
+    <div class="row mt-3">
+      <div class="col-lg-4 col-md-6">
+        <div class="col-md-10">
+          <h5 class="mt-3">Dedicated Team</h5>
+          <p class="mt-3">
+          CEPS is supported by a team of dedicated staff who serves our customer with full commitment and responsibility. We are proud to say that we have achieved as high as 90% of repeat orders.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="col-md-10">
+          <h5 class="mt-3">Capabilities</h5>
+          <p class="mt-3">
+          CEPS is continuously inventing new products. Among these are the Tandoori Oven, deck oven and economy gas pizza oven. They are specially made for the smaller businesses.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="col-md-10">
+          <h5 class="mt-3">CEPS's Forte</h5>
+          <p class="mt-3">
+            CEPS's Forte in carving a niche in the food service industry is largely a result of its persistent effort to perform better than its competitors.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
