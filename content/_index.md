@@ -79,3 +79,14 @@ draft: false
   </div>
 </div>
 
+
+<!-- About Us -->
+<div class="about">
+  <div class="container">
+    <h1>Who We Are</h1>
+    <p>
+      CE Products Synergy Sdn Bhd or CEPS , as it is known by its acronym was established in March 2000. We are proud to be the first Malaysian Company that manufactures quality wood-fired oven. Our 'CEPS' wood-fired oven provides our purchasers a cost effective alternative over our overseas competitor's makes. Our oven is available in various sizes to cater to your need with internal diameter ranging from 900 to 1500mm. It also comes with an optional gas back-up system. We strive to continuously improve our product quality and design and emphasise in maintaining customer satisfaction. Our belief in 'Safety First' affirms our stand in putting safety on the top priority.
+    </p>
+  </div>
+</div>
+
