@@ -90,3 +90,208 @@ draft: false
   </div>
 </div>
 
+<!-- Products -->
+<div class="products">
+  <div class="container">
+    <h1>Our Products</h1>
+    <div id="owlcarousel" class="owl-carousel owl-theme" data-bs-ride="carousel">
+      <a href="#">
+        <div class="card">
+          <div class="image-wrapper">
+            <img src="images/ucan1.JPG" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">UCAN HUMIDIFIER</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="card">
+          <div class="image-wrapper">
+            <img src="images/ucan.JPG" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">PIZZA OVEN</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="card">
+          <div class="image-wrapper">
+            <img src="images/ucan1.JPG" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">INSPECTION MIRROR</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="card">
+          <div class="image-wrapper">
+            <img src="images/ucan1.JPG" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">COMBI OVEN</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="card">
+          <div class="image-wrapper">
+            <img src="images/ucan1.JPG" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">SEF INDUCTION COOKER</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </a>
+      <a href="">
+        <div class="card">
+          <div class="image-wrapper">
+            <img src="images/ucan1.JPG" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">COOKING RANGES</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="brands">
+  <div class="container">
+    <h1>Our Product Brands</h1>
+    <div id="owlcarousel2" class="owl-carousel owl-theme" data-bs-ride="carousel">
+      <div>
+        <img src="images/brands/1.png" style="width: 280px;" alt="">
+      </div>
+      <div>
+        <img src="images/brands/2.png" style="width: 320px;" alt="">
+      </div>
+      <div>
+        <img src="images/brands/3.png" style="width: 320px;" alt="">
+      </div>
+      <div>
+        <img src="images/brands/4n.png" style="width: 320px;" alt="">
+      </div>
+      <div>
+        <img src="images/brands/5n.png" style="width: 320px;" alt="">
+      </div>
+      <div>
+        <img src="images/brands/6n.png" style="width: 320px;" alt="">
+      </div>
+      <div>
+        <img src="images/brands/7n.png" style="width: 320px;" alt="">
+      </div>
+      <div>
+        <img src="images/brands/ucan.PNG" style="width: 320px;" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="brands">
+  <div class="container">
+    <h1 class="mb-4">Our Clientele</h1>
+    <div id="owlcarousel3" class="owl-carousel owl-theme" data-bs-ride="carousel">
+      <div>
+        <img src="images/clientele/5.png" style="width: 280px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/6.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/8.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/9.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/10.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/11.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/12.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/13.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/14.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/23.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/24.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/26.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/27.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/28.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/29.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/30.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/31.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/32.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/33.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/34.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/35.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/36.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/37.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/38.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/39.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/40.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/41.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/42.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/43.png" style="width: 300px;" alt="">
+      </div>
+      <div>
+        <img src="images/clientele/44.png" style="width: 300px;" alt="">
+      </div>
+    </div>
+  </div>
+</div>

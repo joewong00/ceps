@@ -3,14 +3,30 @@
 // Mixins
 @mixin owl-nav() {
     border: none;
-    border: none;
     border-radius: 50%;
     opacity: .7;
     position: absolute;
     top: 150px;
 
-    width: calc(2vw + 30px);
-    height: calc(2vw + 30px);
+    width: calc(1vw + 30px);
+    height: calc(1vw + 30px);
+
+    &:hover{
+        opacity: 1;
+    }
+}
+
+@mixin owl-nav-brand() {
+    border-radius: 50%;
+    opacity: .8;
+    position: absolute;
+    top: 80px;
+    font-size: large;
+    background-color: black;
+    color: #fff;
+
+    width: calc(2vw + 20px);
+    height: calc(2vw + 20px);
 
     &:hover{
         opacity: 1;
@@ -183,10 +199,23 @@
 
     h1 {
         @include heading();
-        margin-bottom: -8px;
+        margin-bottom: -5px;
     }
 
     .container {
-        width: 1100px;
+        width: 900px;
     }
+
+    button.owl-prev {
+        transform: translateX(-80px);
+        @include owl-nav-brand();
+    
+    }
+    
+    button.owl-next {
+        right: 0;
+        transform: translateX(80px);
+        @include owl-nav-brand();
+    }
+    
 }
