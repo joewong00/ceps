@@ -27,7 +27,7 @@
         // text-align: center;
 
         // Only when navbar is not collapsed
-        @include media-breakpoint-down(1200px){
+        @include media-breakpoint-down(990px){
             &::after {
                 position: absolute;
                 top: 50px;
@@ -75,42 +75,42 @@
 }
 
 // Contact Button
-.btn-rounded {
-    @include media-breakpoint-up($on-palm) {
-        display: none;
-    }
+// .btn-rounded {
+//     @include media-breakpoint-up($on-palm) {
+//         display: none;
+//     }
 
-    position: relative;
-    transform: translateY(-30px);
-    padding: 1rem 4.125rem 1rem 1.25rem;
-    font-weight: 500;
-    margin: 0;
-    border: 0 ;
-    background-color: white;
-    background-image: linear-gradient(to right, red , yellow);
+//     position: relative;
+//     transform: translateY(-30px);
+//     padding: 1rem 4.125rem 1rem 1.25rem;
+//     font-weight: 500;
+//     margin: 0;
+//     border: 0 ;
+//     background-color: white;
+//     background-image: linear-gradient(to right, red , yellow);
 
-    &:hover{
-        background-color: grey;
-        color: white;
-        transform: translateY(-32px)
-    }
+//     &:hover{
+//         background-color: grey;
+//         color: white;
+//         transform: translateY(-32px)
+//     }
 
-    span {
-        position: absolute;
-        background-color: black;
-        width: 2.5rem;
-        height: 2.5rem;
-        top: 50%;
-        right: 10px;
-        transform: translateY(-50%);
-        border-radius: 50%;
+//     span {
+//         position: absolute;
+//         background-color: black;
+//         width: 2.5rem;
+//         height: 2.5rem;
+//         top: 50%;
+//         right: 10px;
+//         transform: translateY(-50%);
+//         border-radius: 50%;
 
-        i {
-            color: white;
-            line-height: 2.5rem;
-        }
-    }
-}
+//         i {
+//             color: white;
+//             line-height: 2.5rem;
+//         }
+//     }
+// }
 
 
 // Navbar Items
@@ -145,11 +145,11 @@
     border: 0;
 
     .top{
-        margin-top: -7px;
+        margin-top: -8px;
     }
 
     .bottom{
-        margin-top: 7px;
+        margin-top: 8px;
     }
 }
 
@@ -169,14 +169,13 @@
 
 
 // Navbar Collapse
-@include media-breakpoint-up(1200px){
+@include media-breakpoint-up(990px){
     div#custom-navbar-collapse{
         background: black;
         margin: 0;
         padding-top:1cm;
         width: 90%;
         z-index: 999;
-        margin-top: 1em;
 
         a {
             font-size: 2vw;

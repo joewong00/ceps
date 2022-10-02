@@ -198,7 +198,7 @@ draft: false
   </div>
 </div>
 
-<div class="brands">
+<div class="brands pb-5">
   <div class="container">
     <h1 class="mb-4">Our Clientele</h1>
     <div id="owlcarousel3" class="owl-carousel owl-theme" data-bs-ride="carousel">
@@ -206,92 +206,68 @@ draft: false
         <img src="images/clientele/5.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/6.png" style="width: 300px;" alt="">
+        <img src="images/clientele/6.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/8.png" style="width: 300px;" alt="">
+        <img src="images/clientele/8.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/9.png" style="width: 300px;" alt="">
+        <img src="images/clientele/9.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/10.png" style="width: 300px;" alt="">
+        <img src="images/clientele/10.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/11.png" style="width: 300px;" alt="">
+        <img src="images/clientele/11.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/12.png" style="width: 300px;" alt="">
+        <img src="images/clientele/12.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/13.png" style="width: 300px;" alt="">
+        <img src="images/clientele/13.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/14.png" style="width: 300px;" alt="">
+        <img src="images/clientele/23.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/23.png" style="width: 300px;" alt="">
+        <img src="images/clientele/24.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/24.png" style="width: 300px;" alt="">
+        <img src="images/clientele/26.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/26.png" style="width: 300px;" alt="">
+        <img src="images/clientele/29.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/27.png" style="width: 300px;" alt="">
+        <img src="images/clientele/30.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/28.png" style="width: 300px;" alt="">
+        <img src="images/clientele/31.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/29.png" style="width: 300px;" alt="">
+        <img src="images/clientele/32.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/30.png" style="width: 300px;" alt="">
+        <img src="images/clientele/33.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/31.png" style="width: 300px;" alt="">
+        <img src="images/clientele/35.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/32.png" style="width: 300px;" alt="">
+        <img src="images/clientele/38.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/33.png" style="width: 300px;" alt="">
+        <img src="images/clientele/39.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/34.png" style="width: 300px;" alt="">
+        <img src="images/clientele/40.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/35.png" style="width: 300px;" alt="">
+        <img src="images/clientele/42.png" style="width: 280px;" alt="">
       </div>
       <div>
-        <img src="images/clientele/36.png" style="width: 300px;" alt="">
+        <img src="images/clientele/44.png" style="width: 280px;" alt="">
       </div>
-      <div>
-        <img src="images/clientele/37.png" style="width: 300px;" alt="">
-      </div>
-      <div>
-        <img src="images/clientele/38.png" style="width: 300px;" alt="">
-      </div>
-      <div>
-        <img src="images/clientele/39.png" style="width: 300px;" alt="">
-      </div>
-      <div>
-        <img src="images/clientele/40.png" style="width: 300px;" alt="">
-      </div>
-      <div>
-        <img src="images/clientele/41.png" style="width: 300px;" alt="">
-      </div>
-      <div>
-        <img src="images/clientele/42.png" style="width: 300px;" alt="">
-      </div>
-      <div>
-        <img src="images/clientele/43.png" style="width: 300px;" alt="">
-      </div>
-      <div>
-        <img src="images/clientele/44.png" style="width: 300px;" alt="">
-      </div>
-    </div>
+    </div> 
   </div>
-</div>
+</div> 

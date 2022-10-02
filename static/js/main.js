@@ -3,7 +3,7 @@ $('#owlcarousel').owlCarousel({
     margin:10,
     responsiveClass:true,
     nav: true,
-    navText: ["〈", "<span class='carousel-control-next-icon'></span>"],
+    navText: ["←", "→"],
     responsive:{
         0:{
             items:1,
@@ -31,9 +31,12 @@ $('#owlcarousel2').owlCarousel({
     autoplayHoverPause:true,
     responsive:{
         0:{
-            items:2,
+            items:1,
         },
         600:{
+            items:2,
+        },
+        1000:{
             items:3,
         }
     }
@@ -52,9 +55,12 @@ $('#owlcarousel3').owlCarousel({
     autoplayHoverPause:true,
     responsive:{
         0:{
-            items:2,
+            items:1,
         },
         600:{
+            items:2,
+        },
+        1000:{
             items:3,
         }
     }
