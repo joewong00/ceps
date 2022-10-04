@@ -2,43 +2,21 @@
     <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 container-md mx-auto">
             <div class="col-md-3 col-sm-6">
-                <a href="#"><img class="logo" src="images/CE-Logo.png" alt="ce products"></a>
+                <a href="#"><img class="logo" src="/ceps/images/CE-Logo.png" alt="ce products"></a>
             </div>
             <div class="col-md-3 col-sm-6 footer-wthree-grid">
                 <h3>Navigation</h3>
                 <ul class="navbar-nav my-2 m-lg-0 col d-flex justify-content-md-between justify-content-lg-center">
-                    <li>
-                        <a class="nav-link active-nav" href="/"> Home </a>
-                    </li>
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
                     <li class="nav-item">
-                        <a class="nav-link " href=" /about">
-                          about
-                        </a>
+                        <a  class="nav-link {{ if $currentPage.HasMenuCurrent "main" . }} active" aria-current="page{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href=" /about">
-                          Products
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href=" /about">
-                          Projects
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href=" /about">
-                          Exhibition
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href=" /about">
-                          Contact Us
-                        </a>
-                    </li>
+                    {{ end }}
                 </ul>
             </div>
             <div class="col-md-3 col-sm-6 footer-wthree-grid" id="map-centered">
-                <h3>Maps</h3>
+                <h3>Map</h3>
                 <div class="map-ce">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15937.092337675673!2d101.7439862!3d3.0211438!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5a6041e5c3f169e!2sCE+Products+Synergy+Sdn+Bhd!5e0!3m2!1sen!2smy!4v1510129845901" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen=""></iframe>
                 </div>

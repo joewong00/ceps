@@ -2,7 +2,7 @@
     <div class="container">
 
         <a class="navbar-brand" href="#">
-            <img class="logo" src="images/CE-Logo.png" alt="ceps">
+            <img class="logo" src="/ceps/images/CE-Logo.png" alt="ceps">
         </a>
  
         <button class="navbar-toggler d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#custom-navbar-collapse" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,11 +14,20 @@
         <div class="collapse navbar-collapse justify-content-end text-center" id="custom-navbar-collapse" aria-expanded="true">
 
             <ul class="navbar-nav">
+
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a  class="nav-link {{ if $currentPage.HasMenuCurrent "main" . }} active" aria-current="page{{ end }}" href="{{ .URL }}">{{ .Pre }}
+                        <span>{{ .Name }}</span>
+                    </a>
+                </li>
+                {{ end }}
+                <!-- <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/ceps">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="/ceps/about/">About</a>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Products</a>
                 </li>
@@ -30,7 +39,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
-                </li>
+                </li> -->
             </ul>
             <!-- <button type="button" class="rounded-pill btn-rounded">+6016-6637560
                 <span>

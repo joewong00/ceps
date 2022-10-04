@@ -2,6 +2,8 @@
 title: "About"
 date: 2022-08-26T01:07:42+08:00
 draft: false
+menu: main
+weight: 20
 ---
 # Company Profile
 

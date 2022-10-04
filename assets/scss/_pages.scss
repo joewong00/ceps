@@ -1,0 +1,35 @@
+@use 'custom' as *;
+
+// about
+.profile {
+
+    padding: 5em 0;
+
+    h1 {
+        font-size: 3em;
+        letter-spacing: -1px;
+        font-weight: 300;
+        color: black;
+        text-align: center;
+        font-family: Helvetica;
+        margin-bottom: 1em;
+    }
+
+    h3 {
+        font-size: 1.4em;
+        color: $red-color;
+        font-weight: 400;
+        margin-bottom: 0.8em;
+    }
+
+    .pinces {
+        margin-top: 2em;
+        padding: 25px 28px;
+        background:  $red-color;
+        color: #fff;
+    }
+
+    p {
+        text-align: justify;
+    }
+}
