@@ -17,6 +17,16 @@
         color: $linkedin;
     }
 
+    a {
+        text-decoration: none;
+        color: #000;
+        transition: .5s ease-in-out;
+
+        &:hover {
+            color: white;
+        }
+    }
+
 
     h3{
         font-size: 22px;
@@ -31,6 +41,11 @@
         text-transform: uppercase;
         color: black;
         font-size: .8em;
+        transition: .5s ease-in-out;
+
+        &:hover {
+            color: white;
+        }
     }
 
     a.active-nav, a.active-nav:hover, .underline {

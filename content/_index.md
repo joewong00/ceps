@@ -14,7 +14,7 @@ weight: 10
       <div class="carousel-caption d-none d-sm-block description">
         <h3>WELCOME TO CE PRODUCTS</h3>
         <div class="wrapper">
-          <a class="btn btn-danger btn-lg menu_item" href="#" role="button">More About Us</a>
+          <a class="btn btn-danger btn-lg menu_item" href="./about/" role="button">More About Us</a>
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@ weight: 10
       <div class="carousel-caption d-none d-sm-block description">
         <h3>WELCOME TO CE PRODUCTS</h3>
         <div class="wrapper">
-          <a class="btn btn-danger btn-lg menu_item" href="#" role="button">More About Us</a>
+          <a class="btn btn-danger btn-lg menu_item" href="./about/" role="button">More About Us</a>
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@ weight: 10
       <div class="carousel-caption d-none d-sm-block description">
         <h3>WELCOME TO CE PRODUCTS</h3>
         <div class="wrapper">
-          <a class="btn btn-danger btn-lg menu_item" href="#" role="button">More About Us</a>
+          <a class="btn btn-danger btn-lg menu_item" href="./about/" role="button">More About Us</a>
         </div>
       </div>
     </div>

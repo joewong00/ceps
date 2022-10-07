@@ -1,8 +1,35 @@
 @use 'custom' as *;
 
-// about
-.profile {
+@mixin form(){
+    border: 2px solid #999;
+    border-radius: 0%;
+    outline: none;
+    color: #777;
+    padding: 10px 12px;
+    -webkit-appearance: none;
+    font-size: 1em;
+}
 
+.page-banner {
+    background: url(../images/banner1.jpeg) no-repeat center 0px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading { 
+    padding-top: 250px;
+    font-size: 3.2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: .6em 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.pages {
     padding: 5em 0;
 
     h1 {
@@ -14,6 +41,11 @@
         font-family: Helvetica;
         margin-bottom: 1em;
     }
+
+}
+
+// about
+.profile {
 
     h3 {
         font-size: 1.4em;
@@ -31,5 +63,107 @@
 
     p {
         text-align: justify;
+    }
+}
+
+.about {
+    p {
+        text-align: justify;
+        width: 97%;
+        margin: 0.5em auto 36px;
+    }
+}
+
+.map {
+    border-width: .2cm;
+    border-style: solid;
+    border-color: darkgrey;
+    margin-bottom: 1cm;
+}
+
+
+.contactus{
+
+    .container {
+        @include media-breakpoint-down($on-palm){
+            padding: 0 4em;
+        }
+    }
+
+    form {
+        @include media-breakpoint-down(785px){
+            padding-right: 4em;
+        }
+    }
+
+    input {
+        @include form();
+        margin: 0 0 1em 0;
+        font-size: 1em;
+    }
+
+    textarea {
+        @include form();
+        width: 100%;
+        resize: none;
+        height: 10em;
+
+    }
+
+    button {
+        border: 1px solid #ca3024;
+        border-radius: 0%;
+        padding: .5em 0;
+        width: 22%;
+        font-size: 1em;
+        color: #fff;
+        letter-spacing: 1px;
+        background-color: $red-color;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -webkit-appearance: none;
+
+        &:hover {
+            border: 1px solid #ca3024;
+            background-color: white;
+            color: $red-color;
+        }
+    }
+
+    #singapore {
+        line-height: 19px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $yellow-color;
+        transition: .5s ease-in-out;
+
+        &:hover{
+            color: $red-color;
+        }
+    }
+
+    p {
+        display: inline;
+        color: #000;
+        line-height: 2em;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+    ul {
+        margin: .5em 0 0 0;
+        padding: 0;
+    }
+
+    li {
+        font-size: .84em;
+        padding: 5px 0;
+    }
+
+    span {
+        margin-right: .5em;
     }
 }
