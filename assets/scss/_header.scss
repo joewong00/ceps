@@ -56,26 +56,28 @@
 
             &:hover {
                 color: $yellow-color;
-                // text-decoration: underline;
+                
             }
         }
 
     }
-}
 
-a.active {
-    color: $yellow-color;
-    text-decoration: underline;
+    .active {
+        color: $yellow-color;
+    }
 }
 
 // Logo
+// .logo {
+//     width: 20vw;
+
+//     @include media-breakpoint-down(900px) {
+//         width: 12rem;
+//     }
+// }
 .logo {
-    width: 20vw;
-
-    @include media-breakpoint-down(900px) {
-        width: 12rem;
-    }
-
+    width: calc(5vw + 100px);
+    max-width: 200px;
 }
 
 // Contact Button
@@ -132,7 +134,6 @@ a.active {
 
     &:hover{
         color:$yellow-color;
-        // cursor: pointer;
     }
 }
 
@@ -182,7 +183,7 @@ a.active {
         z-index: 999;
 
         a {
-            font-size: 2vw;
+            font-size: 1em;
         }
 
         button {
