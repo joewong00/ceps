@@ -147,7 +147,7 @@ weight: 10
             <img src="images/ucan1.JPG" alt="...">
           </div>
           <div class="card-body">
-            <h5 class="card-title">SEF INDUCTION COOKER</h5>
+            <h5 class="card-title">INDUCTION COOKER</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -173,25 +173,34 @@ weight: 10
     <h1 class="pb-3">Our Product Brands</h1>
     <div id="owl-carousel-2" class="owl-carousel owl-theme" data-bs-ride="carousel">
       <div class="item">
-       <img class="img-responsive" src="images/brands/1.png" alt="">
+        <img class="img-responsive" src="images/brands/donper.jpg" alt="">
       </div>
       <div class="item">
-        <img class="img-responsive" src="images/brands/2.png" alt="">
+        <img class="img-responsive" src="images/brands/ceps.png" alt="">
       </div>
       <div class="item">
-        <img class="img-responsive" src="images/brands/3.png" alt="">
+       <img class="img-responsive" src="images/brands/adventys.jpg" alt="">
       </div>
       <div class="item">
-        <img class="img-responsive" src="images/brands/4n.png" alt="">
+        <img class="img-responsive" src="images/brands/maxel.png" alt="">
       </div>
       <div class="item">
-        <img class="img-responsive" src="images/brands/5n.png" alt="">
+        <img class="img-responsive" src="images/brands/radiance.png" alt="">
       </div>
       <div class="item">
-        <img class="img-responsive" src="images/brands/6n.png" alt="">
+        <img class="img-responsive" src="images/brands/rational.png" alt="">
       </div>
       <div class="item">
-        <img class="img-responsive" src="images/brands/7n.png" alt="">
+        <img class="img-responsive" src="images/brands/sef.png" alt="">
+      </div>
+      <div class="item">
+        <img class="img-responsive" src="images/brands/sogeco.png" alt="">
+      </div>
+       <div class="item">
+        <img class="img-responsive" src="images/brands/convotherm.png" alt="">
+      </div>
+      <div class="item">
+        <img class="img-responsive" src="images/brands/wooil.png" alt="">
       </div>
       <div class="item">
         <img class="img-responsive" src="images/brands/ucan.PNG" alt="">
@@ -201,9 +210,9 @@ weight: 10
 </div>
 
 <div class="brands">
-  <div class="container">
+  <div class="container pb-5">
     <h1 class="mb-5">Our Clientele</h1>
-    <div id="owl-carousel-3" class="owl-carousel owl-theme" data-bs-ride="carousel">
+    <div id="owl-carousel-3" class="owl-carousel owl-theme align-items-center" data-bs-ride="carousel">
       <div class="item">
         <img class="img-responsive" src="images/clientele/5.png" alt="">
       </div>
@@ -226,7 +235,7 @@ weight: 10
         <img class="img-responsive" src="images/clientele/12.png" alt="">
       </div>
       <div class="item">
-        <img class="img-responsive" src="images/clientele/13.png" alt="">
+        <img class="img-responsive" src="images/clientele/ole-ole-bali.jpg" alt="">
       </div>
       <div class="item">
         <img class="img-responsive" src="images/clientele/23.png" alt="">
@@ -236,12 +245,6 @@ weight: 10
       </div>
       <div class="item">
         <img class="img-responsive" src="images/clientele/26.png" alt="">
-      </div>
-      <div class="item">
-        <img class="img-responsive" src="images/clientele/29.png" alt="">
-      </div>
-      <div class="item">
-        <img class="img-responsive" src="images/clientele/30.png" alt="">
       </div>
       <div class="item">
         <img class="img-responsive" src="images/clientele/31.png" alt="">
@@ -259,16 +262,40 @@ weight: 10
         <img class="img-responsive" src="images/clientele/38.png" alt="">
       </div>
       <div class="item">
-        <img class="img-responsive" src="images/clientele/39.png" alt="">
+        <img class="img-responsive" src="images/clientele/dv.png" alt="">
       </div>
       <div class="item">
         <img class="img-responsive" src="images/clientele/40.png" alt="">
       </div>
       <div class="item">
-        <img class="img-responsive" src="images/clientele/42.png" alt="">
+        <img class="img-responsive" src="images/clientele/social.jpeg" alt="">
       </div>
       <div class="item">
         <img class="img-responsive" src="images/clientele/44.png" alt="">
+      </div>
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/affin.png" alt="">
+      </div>
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/canton-boy.jpeg" alt="">
+      </div>
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/huckleberry.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/ali-muthu.jpeg" alt="">
+      </div>
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/soleil.png" alt="">
+      </div>
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/kenny-hill.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/osteria.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/memorie.png" alt="">
       </div>
     </div> 
   </div>

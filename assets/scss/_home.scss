@@ -191,13 +191,15 @@
 
 // Products Brand
 .brands {
-    
-    padding-bottom: 4em;
-
 
     .item {
-        margin: 0 15px;
+        margin: 0 25px;
         position: relative;
+    }
+
+    .owl-carousel .owl-stage {
+        display: flex;
+        align-items: center;
     }
 
     .container {
@@ -219,5 +221,5 @@
         transform: translateX(20px);
         @include owl-nav-brand();
     }
-    
+
 }
