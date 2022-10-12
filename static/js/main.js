@@ -21,7 +21,7 @@ $('#owl-carousel-1').owlCarousel({
 $('#owl-carousel-2').owlCarousel({
     loop:true,
     responsiveClass:true,
-    margin: -10,
+    margin: -20,
     nav: true,
     navText: ["←", "→"],
     dots: false,
@@ -45,7 +45,7 @@ $('#owl-carousel-2').owlCarousel({
 $('#owl-carousel-3').owlCarousel({
     loop:true,
     responsiveClass:true,
-    margin: -10,
+    margin: -20,
     nav: true,
     navText: ["←", "→"],
     dots: false,

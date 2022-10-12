@@ -169,7 +169,7 @@ weight: 10
 
 
 <div class="brands">
-  <div class="container px-5">
+  <div class="container">
     <h1 class="pb-3">Our Product Brands</h1>
     <div id="owl-carousel-2" class="owl-carousel owl-theme" data-bs-ride="carousel">
       <div class="item">
@@ -201,7 +201,7 @@ weight: 10
 </div>
 
 <div class="brands">
-  <div class="container px-5">
+  <div class="container">
     <h1 class="mb-5">Our Clientele</h1>
     <div id="owl-carousel-3" class="owl-carousel owl-theme" data-bs-ride="carousel">
       <div class="item">
