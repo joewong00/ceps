@@ -6,10 +6,11 @@
     border-radius: 50%;
     opacity: .7;
     position: absolute;
-    top: 150px;
+    top: 30%;
+    background-color: #e1e1e1;
 
-    width: calc(1vw + 30px);
-    height: calc(1vw + 30px);
+    width: 35px;
+    height: 35px;
 
     &:hover{
         opacity: 1;
@@ -20,13 +21,11 @@
     border-radius: 50%;
     opacity: .8;
     position: absolute;
-    top: 80px;
-    font-size: large;
+    top: 35%;
     background-color: black;
     color: #fff;
-
-    width: calc(2vw + 20px);
-    height: calc(2vw + 20px);
+    width: 35px;
+    height: 35px;
 
     &:hover{
         opacity: 1;
@@ -171,15 +170,15 @@
     }
 
     button.owl-prev {
-        transform: translateX(-10px);
-        background-color: #e1e1e1;
+        transform: translateX(-20px);
+        
         @include owl-nav();
     
     }
     
     button.owl-next {
         right: 0;
-        transform: translateX(10px);
+        transform: translateX(20px);
         @include owl-nav();
     }
     
@@ -193,69 +192,27 @@
 // Products Brand
 .brands {
     
-    overflow: hidden;
-    padding-bottom: 5em;
+    padding-bottom: 4em;
+
+    .item {
+        margin: 0 15px;
+        position: relative;
+    }
 
     h1 {
         @include heading();
         margin-bottom: -5px;
     }
 
-    .container {
-        width: 900px;
-    }
-
     button.owl-prev {
-        transform: translateX(-80px);
+        transform: translateX(-20px);
         @include owl-nav-brand();
-    
     }
     
     button.owl-next {
         right: 0;
-        transform: translateX(80px);
+        transform: translateX(20px);
         @include owl-nav-brand();
     }
     
-    img {
-        align-self: center;
-    }
 }
-
-
-.swiper{
-    width: 100%;
-}
-
-// .swiper-button-next {
-//     position: absolute;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-// }
-
-// .swiper-button-prev {
-//     // transform: translateX(-40px);
-//     z-index: 1000;
-//     border: none;
-//     border-radius: 50%;
-//     background-color: #e1e1e1;
-//     opacity: .7;
-   
-//     width: calc(1vw + 30px);
-//     height: calc(1vw + 30px);
-
-//     &:hover{
-//         opacity: 1;
-//     }
-//     &::after {
-//         border: none;
-//         // box-sizing: none;
-//     }
-// }
-
-
-// .swiper-pagination {
-//     top: 10px;
-//     position: relative;
-// }

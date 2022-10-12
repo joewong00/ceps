@@ -49,7 +49,7 @@
             }
         }
 
-        a {
+        a.nav-link {
             color: white;
             text-transform: uppercase;
             font-weight: 600;
@@ -60,10 +60,13 @@
             }
         }
 
-    }
+        a.active, a.active:hover, .underline {
+            color: $yellow-color;
+            &::after{
+                width: 80%;
+            }
+        }
 
-    .active {
-        color: $yellow-color;
     }
 }
 

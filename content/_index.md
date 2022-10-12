@@ -84,7 +84,7 @@ weight: 10
 
 <!-- About Us -->
 <div class="about">
-  <div class="container">
+  <div class="container px-4">
     <h1>Who We Are</h1>
     <p>
       CE Products Synergy Sdn Bhd or CEPS , as it is known by its acronym was established in March 2000. We are proud to be the first Malaysian Company that manufactures quality wood-fired oven. Our 'CEPS' wood-fired oven provides our purchasers a cost effective alternative over our overseas competitor's makes. Our oven is available in various sizes to cater to your need with internal diameter ranging from 900 to 1500mm. It also comes with an optional gas back-up system. We strive to continuously improve our product quality and design and emphasise in maintaining customer satisfaction. Our belief in 'Safety First' affirms our stand in putting safety on the top priority.
@@ -94,7 +94,7 @@ weight: 10
 
 <!-- Products -->
 <div class="products">
-  <div class="container">
+  <div class="container px-4">
     <h1>Our Products</h1>
     <div id="owl-carousel-1" class="owl-carousel owl-theme" data-bs-ride="carousel">
       <a href="#">
@@ -169,106 +169,106 @@ weight: 10
 
 
 <div class="brands">
-  <div class="container">
+  <div class="container px-5">
     <h1 class="pb-3">Our Product Brands</h1>
     <div id="owl-carousel-2" class="owl-carousel owl-theme" data-bs-ride="carousel">
-      <div>
-        <img src="images/brands/1.png" style="width: 280px;" alt="">
+      <div class="item">
+       <img class="img-responsive" src="images/brands/1.png" alt="">
       </div>
-      <div>
-        <img src="images/brands/2.png" style="width: 320px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/brands/2.png" alt="">
       </div>
-      <div>
-        <img src="images/brands/3.png" style="width: 320px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/brands/3.png" alt="">
       </div>
-      <div>
-        <img src="images/brands/4n.png" style="width: 320px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/brands/4n.png" alt="">
       </div>
-      <div>
-        <img src="images/brands/5n.png" style="width: 320px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/brands/5n.png" alt="">
       </div>
-      <div>
-        <img src="images/brands/6n.png" style="width: 320px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/brands/6n.png" alt="">
       </div>
-      <div>
-        <img src="images/brands/7n.png" style="width: 320px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/brands/7n.png" alt="">
       </div>
-      <div>
-        <img src="images/brands/ucan.PNG" style="width: 320px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/brands/ucan.PNG" alt="">
       </div>
     </div>
   </div>
 </div>
 
 <div class="brands">
-  <div class="container">
+  <div class="container px-5">
     <h1 class="mb-5">Our Clientele</h1>
     <div id="owl-carousel-3" class="owl-carousel owl-theme" data-bs-ride="carousel">
-      <div>
-        <img src="images/clientele/5.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/5.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/6.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/6.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/8.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/8.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/9.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/9.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/10.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/10.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/11.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/11.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/12.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/12.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/13.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/13.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/23.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/23.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/24.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/24.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/26.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/26.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/29.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/29.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/30.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/30.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/31.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/31.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/32.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/32.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/33.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/33.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/35.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/35.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/38.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/38.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/39.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/39.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/40.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/40.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/42.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/42.png" alt="">
       </div>
-      <div>
-        <img src="images/clientele/44.png" style="width: 280px;" alt="">
+      <div class="item">
+        <img class="img-responsive" src="images/clientele/44.png" alt="">
       </div>
     </div> 
   </div>

@@ -1,28 +1,3 @@
-var swiper = new Swiper(".mySwiper", {
-    loop: true,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-          },
-        500: {
-          slidesPerView: 2,
-          spaceBetween: -10,
-        },
-        1000: {
-          slidesPerView: 3,
-          spaceBetween: -10,
-        },
-    },
-});
-
 $('#owl-carousel-1').owlCarousel({
     loop:true,
     margin:30,
@@ -58,7 +33,7 @@ $('#owl-carousel-2').owlCarousel({
         0:{
             items:1,
         },
-        600:{
+        500:{
             items:2,
         },
         1000:{
@@ -70,7 +45,7 @@ $('#owl-carousel-2').owlCarousel({
 $('#owl-carousel-3').owlCarousel({
     loop:true,
     responsiveClass:true,
-    margin: 0,
+    margin: -10,
     nav: true,
     navText: ["←", "→"],
     dots: false,
@@ -82,7 +57,7 @@ $('#owl-carousel-3').owlCarousel({
         0:{
             items:1,
         },
-        600:{
+        500:{
             items:2,
         },
         1000:{
