@@ -193,6 +193,7 @@
 // Products Brand
 .brands {
     
+    overflow: hidden;
     padding-bottom: 5em;
 
     h1 {
@@ -216,6 +217,9 @@
         @include owl-nav-brand();
     }
     
+    img {
+        align-self: center;
+    }
 }
 
 

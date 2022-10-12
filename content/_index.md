@@ -96,7 +96,7 @@ weight: 10
 <div class="products">
   <div class="container">
     <h1>Our Products</h1>
-    <div id="owlcarousel" class="owl-carousel owl-theme" data-bs-ride="carousel">
+    <div id="owl-carousel-1" class="owl-carousel owl-theme" data-bs-ride="carousel">
       <a href="#">
         <div class="card">
           <div class="image-wrapper">
@@ -167,11 +167,11 @@ weight: 10
   </div>
 </div>
 
-<!-- 
+
 <div class="brands">
   <div class="container">
     <h1 class="pb-3">Our Product Brands</h1>
-    <div id="owlcarousel2" class="owl-carousel owl-theme" data-bs-ride="carousel">
+    <div id="owl-carousel-2" class="owl-carousel owl-theme" data-bs-ride="carousel">
       <div>
         <img src="images/brands/1.png" style="width: 280px;" alt="">
       </div>
@@ -203,7 +203,7 @@ weight: 10
 <div class="brands">
   <div class="container">
     <h1 class="mb-5">Our Clientele</h1>
-    <div id="owlcarousel3" class="owl-carousel owl-theme" data-bs-ride="carousel">
+    <div id="owl-carousel-3" class="owl-carousel owl-theme" data-bs-ride="carousel">
       <div>
         <img src="images/clientele/5.png" style="width: 280px;" alt="">
       </div>
@@ -272,4 +272,4 @@ weight: 10
       </div>
     </div> 
   </div>
-</div>  -->
+</div> 
