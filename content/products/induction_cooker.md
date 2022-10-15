@@ -1,6 +1,6 @@
 ---
 title: 'Products'
-name: 'Pizza Oven'
+name: 'Induction Cooker'
 image: '../images/oven.jpg'
 description: 'testing'
 ---

@@ -10,7 +10,9 @@
                     {{ $currentPage := . }}
                     {{ range .Site.Menus.main }}
                     <li class="nav-item">
-                        <a  class="nav-link {{ if $currentPage.HasMenuCurrent "main" . }} active-nav" aria-current="page{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+                      {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+                      {{ $active = or $active (eq .Name $currentPage.Title) }}
+                      <a href="{{ .URL }}" class="nav-link {{ if $active }}active-nav{{ end }}">{{ .Name }}</a>
                     </li>
                     {{ end }}
                 </ul>

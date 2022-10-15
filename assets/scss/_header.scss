@@ -1,5 +1,19 @@
 @use 'custom' as *;
 
+@mixin underline() {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: $red-color;
+    width: 0%;
+    content: "";
+    height: 3px;
+    transition: all 0.5s;
+}
+
 // Header Menu
 .menu {
     background-color: transparent;
@@ -29,17 +43,7 @@
         // Only when navbar is not collapsed
         @include media-breakpoint-down(990px){
             &::after {
-                position: absolute;
-                top: 50px;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                margin: auto;
-                background-color: $red-color;
-                width: 0%;
-                content: "";
-                height: 3px;
-                transition: all 0.5s;
+                @include underline();
             }
     
             &:hover{
@@ -60,24 +64,27 @@
             }
         }
 
-        a.active, a.active:hover, .underline {
+        a.active-nav {
             color: $yellow-color;
-            &::after{
-                width: 80%;
+
+            // Only when navbar is not collapsed
+            @include media-breakpoint-down(990px){
+
+                &::after {
+                    @include underline();
+                }
+
+                &::after{
+                    width: 80%;
+                }
             }
         }
 
     }
 }
 
-// Logo
-// .logo {
-//     width: 20vw;
 
-//     @include media-breakpoint-down(900px) {
-//         width: 12rem;
-//     }
-// }
+
 .logo {
     width: calc(5vw + 100px);
     max-width: 200px;
@@ -189,8 +196,9 @@
             font-size: 1em;
         }
 
-        button {
-            top: 10px;
+
+        a.active-nav {
+            color: $yellow-color;
         }
     }
 }
